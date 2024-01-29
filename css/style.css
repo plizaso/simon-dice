@@ -1,0 +1,29 @@
+#celda-1{
+    background-color: green;
+    border-top-left-radius: 10px;
+}
+#celda-2{
+    background-color: red;
+    border-top-right-radius: 10px;
+}
+#celda-3{
+    background-color: yellow;
+    border-bottom-left-radius: 10px;
+}
+#celda-4{
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+}
+
+.celda{
+    height: 200px;
+}
+
+body{
+    background-color: lightgray !important;
+}
+
+#tablero{
+    background-color: white;
+    border-radius: 10px;
+}
