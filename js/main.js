@@ -96,8 +96,10 @@ function obtenerNuevaCelda(){
 
 function resaltarCelda(celda){
     celda.style.opacity = 1;
+    celda.style.border = '1px solid black'
     setTimeout(function(){
         celda.style.opacity = 0.5
+        celda.style.border = 'none';
     }, 500)
 }
 
